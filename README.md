@@ -78,12 +78,8 @@ ax=gdf_edges.plot('cc',cmap='plasma',figsize=(10,10))
 ctx.add_basemap(ax,source=ctx.providers.CartoDB.Positron)
 plt.axis('off')
 ```
-
-
 ![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/closeness_centrality.png)   
-![png](README_files/README_7_0.png)
     
-
 
 The above figure illustrates the Closeness Centrality of the road network within the research area. Roads with a more yellowish hue indicate proximity to other locations, positioning them at the center of the road network. Specifically, the streets around **Holloway Road Station** and the intersection of **Caledonian Road and Market Road** are highlighted in yellow, signifying their central positions within the studied road network. 
 Upon comparison with the basemap, it is observed that Closeness Centrality does not exert a significant influence on the presence of roadside retail businesses. In other words, retail establishments do not necessarily tend to be located in areas with high Closeness Centrality in this study area.
@@ -103,12 +99,8 @@ ax=gdf_edges.plot('bc',cmap='plasma',figsize=(10,10))
 ctx.add_basemap(ax,source=ctx.providers.CartoDB.Positron)
 plt.axis('off')
 ```
-
-![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/Betweenness_centrality.png)
+![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/betweenness_centrality.png)
     
-![png](README_files/README_9_0.png)
-    
-
 
 The above figure presents the Betweenness Centrality of the road network within the research area. Betweenness Centrality to some extent reflects the frequency with which a street lies on the shortest paths between other streets in the road network, indicating the significance of a street in handling traffic flow within the network.
  One of the streets with the highest Betweenness Centrality in the above figure is situated at the intersection of **Holloway Road and Camdon Road**, as illustrated in the interactive map below. On either side of this road are major supermarkets such as Waitrose, Morrisons, Lidl, as well as a variety of retail stores, highlighting its crucial role in accommodating traffic flow and commercial activity.
