@@ -77,11 +77,10 @@ ax=gdf_edges.plot('cc',cmap='plasma',figsize=(10,10))
 # add a basemap using contextilly
 ctx.add_basemap(ax,source=ctx.providers.CartoDB.Positron)
 plt.axis('off')
-![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/closeness_centrality.png)
 ```
 
 
-    
+![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/closeness_centrality.png)   
 ![png](README_files/README_7_0.png)
     
 
@@ -103,10 +102,9 @@ ax=gdf_edges.plot('bc',cmap='plasma',figsize=(10,10))
 # add a basemap using contextilly
 ctx.add_basemap(ax,source=ctx.providers.CartoDB.Positron)
 plt.axis('off')
-![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/Betweenness_centrality.png)
 ```
 
-
+![Alt Text](https://raw.githubusercontent.com/Xinyi1204/xinyi1204.github.io/master/Betweenness_centrality.png)
     
 ![png](README_files/README_9_0.png)
     
