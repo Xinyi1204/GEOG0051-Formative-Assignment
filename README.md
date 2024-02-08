@@ -1,15 +1,8 @@
 Formative Assignment: Street network analysis
 -------------------------------
-For this formative assessment, your objective is to develop a GitHub page that conducts a street network analysis of a London
-
-neighborhood of your preference. Keep in mind that since this is a formative assessment, there won’t be any grades given,
-
-however, it will serve as valuable practice for the forthcoming summative assessment.
 
 ### Task 1: Investigating the Relationship Between Retail Locations and Street Networks
-
 For this task, I have chosen to center my exploration around **Holloway Road Station**, examining the relationship between the road network within a radius of 2000 meters and retail establishments. The primary focus of this study involves the analysis of the **driving network** within the designated research area.
-
 
 ```python
 import pandas as pd
